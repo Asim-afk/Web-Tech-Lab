@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="form.css" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="form-container">
+                <form>
+                    <label for="name">Name:</label>
+                    <input class="formItem" type="text" name="" id="name" />
+                    <br />
+                    <label for="email">Email:</label>
+                    <input class="formItem" type="email" name="email" id="email" />
+                    <br />
+                    <label for="password">Password:</label>
+                    <input class="formItem" type="password" name="password" id="password" />
+                    <br>
+                    <label for="date">Date:</label>
+                    <input class="formItem" type="date" name="date" id="date" />
+                    <br>
+
+                    <div class="formItemDiv">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender">Male</input>
+                    <input type="radio" id="female" name="gender">Female</input>
+                    <input type="radio" id="other" name="gender">Other</input>4
+                    </div>
+
+                    <div class="formItemDiv">
+                        <label for="checkbox">Courses Available:</label>
+                        <input type="checkbox" id="react" name="react">React</input>
+                        <input type="checkbox" id="c" name="c">C</input>
+                        <input type="checkbox" id="java" name="java">Java</input>
+                    </div>
+                    <label for="paythrough">Pay Through</label>
+                    <select type="select" name="paythrough" class="formItem" style="margin-bottom: 20px;">
+                        <option value="1">Visa</option>
+                        <option value="2">Master Card</option>
+                        <option value="3">Esewa</option>
+                        <option value="4">Phone Pay</option>
+                    </select>
+                    <br>
+                    <label for="textArea">FeedBack:</label><br>
+                    <textarea class="formItem" style="height: auto;" name="w3review" rows="4" cols="50">    </textarea>                 
+
+                    <br>
+                    <button  type="submit" class="submitButton">Submit</button>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,21 @@
+.clip1 {
+  padding: 15px;
+  border: 10px dotted black;
+  background-color: blueviolet;
+  margin: 20px;
+  background-clip: border-box;
+}
+.clip2 {
+  padding: 15px;
+  border: 10px dotted black;
+  margin: 20px;
+  background-color: aquamarine;
+  background-clip: padding-box;
+}
+.clip3 {
+  padding: 15px;
+  border: 10px dotted black;
+  background-color: antiquewhite;
+  margin: 20px;
+  background-clip: content-box;
+}
