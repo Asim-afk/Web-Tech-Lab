@@ -1,30 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="HTML, CSS, JavaScript"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-      <label for="name">Name</label>
-      <input type="text" name="name" />
-      <label for="select">Select</label>
-      <select type="select">
-        <option value="1">1st</option>
-        <option value="2">2nd</option>
-        <option value="3">3rd</option>
-        <option value="4">4th</option>
-      </select>
-      <input type="radio" id="male" name="gender">Male</input>
-      <input type="radio" id="female" name="gender">Female</input>
-    </form>
-    <br><br>
-    <audio controls>
-        <source src="" type="audio/ogg">
-        <source>
-    </audio>
-    <br> <br><br>
-    <video controls><source src="/1- Modelling Relationships.mp4" type="video/mp4"></video>
-  </body>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div style="display: flex; justify-content:center ; margin-top:20px;" >
+            <div style="border:3px solid black; padding: 20px;" >
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" name="" id="name" />
+                    <br /><br />
+                    <label for="email">Email:</label>
+                    <input  type="email" name="email" id="email" />
+                    <br /><br />
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" />
+                    <br /><br />
+                    <label for="date">Date:</label>
+                    <input  type="date" name="date" id="date" />
+                    <br /><br />
+                    <div >
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender">Male</input>
+                    <input type="radio" id="female" name="gender">Female</input>
+                    <input type="radio" id="other" name="gender">Other</input>4
+                    </div>
+                    <br />
+                    <div >
+                        <label for="checkbox">Courses Available:</label>
+                        <input type="checkbox" id="react" name="react">React</input>
+                        <input type="checkbox" id="c" name="c">C</input>
+                        <input type="checkbox" id="java" name="java">Java</input>
+                    </div>
+                    <br />
+                    <label for="paythrough">Pay Through</label>
+                    <select type="select" name="paythrough"  style="margin-bottom: 20px;">
+                        <option value="1">Visa</option>
+                        <option value="2">Master Card</option>
+                        <option value="3">Esewa</option>
+                        <option value="4">Phone Pay</option>
+                    </select>
+                    <br>
+                    <label for="textArea">FeedBack:</label><br>
+                    <textarea  style="height: auto;" name="w3review" rows="4" cols="50">    </textarea>                 
+
+                    <br>
+                    <button  type="submit" class="submitButton">Submit</button>
+                </form>
+            </div>
+        </div>
+    </body>
+
 </html>
